@@ -1,4 +1,6 @@
 import logging
+import sqlalchemy
+
 from typing import Text
 
 from sqlalchemy import Column, DateTime, Integer, MetaData, String, Table, Text, event
