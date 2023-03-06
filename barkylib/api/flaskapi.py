@@ -7,7 +7,7 @@ from barkylib.domain import commands
 # init from dotenv file
 from dotenv import load_dotenv
 from flask import Flask, jsonify, request
-from flask_sqlalchemy import SQLAlchemy
+#from flask_sqlalchemy import SQLAlchemy
 
 from .baseapi import AbstractBookMarkAPI
 
